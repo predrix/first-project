@@ -985,11 +985,7 @@ input:focus {
 	}
 }
 @media (max-width: 576px) {
-	header {
-		margin-top: 50px;
-	}
 	nav {
-		position: fixed !important;
 		position: fixed;
 		top: 0;
 		right: 0;
@@ -1062,9 +1058,34 @@ input:focus {
 		display: none;
 	}
 	.tablet {
-		width: 350px;
+		width: 300px;
 	}
 	.phone {
-		width: 180px;
+		width: 130px;
+	}
+}
+@media (max-width: 400px) {
+	.carousel-mogo {
+		font-size: 28px;
+		margin-bottom: 15px;
+	}
+	.carousel-p {
+		margin-top: 15px;
+		font-size: 35px;
+	}
+	.blog-img {
+		max-width: 270px !important;
+	}
+	.layer-title {
+		font-size: 24px;
+	}
+	.layers2-text {
+		font-size: 16px;
+	}
+	.number {
+		font-size: 36px;
+	}
+	.infos {
+		font-size: 13px;
 	}
 }
