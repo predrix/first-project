@@ -18,7 +18,6 @@ $(window).resize(function() {
 	}
 });
 
-console.log($('nav').height());
 function scroll(e) {
 
     let href = $(this).attr('href');
