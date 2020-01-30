@@ -10,6 +10,7 @@
 			$('body').css('padding-top', '0');
 		} 
 });
+
 $(window).resize(function() {
 	if ($(this).scrollTop() === 0) {
 		$('nav').removeClass('fixed-top');

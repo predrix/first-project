@@ -1058,7 +1058,7 @@ input:focus {
 		display: none;
 	}
 	.tablet {
-		width: 300px;
+		width: 280px;
 	}
 	.phone {
 		width: 130px;
@@ -1086,6 +1086,6 @@ input:focus {
 		font-size: 36px;
 	}
 	.infos {
-		font-size: 13px;
+		font-size: 12px;
 	}
 }
