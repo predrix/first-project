@@ -27,7 +27,7 @@ header:after {
 .navbar-nav {
 	margin-right: 4%;
 }
-.navigation {
+.navbar-my {
 	z-index: 2;
 	padding-top: 50px;
 }
@@ -876,7 +876,6 @@ input:focus {
 	}
 }
 @media (max-width: 768px) {
-
 	.nav-link-my {
 		font-size: 12px;
 	}
@@ -985,13 +984,16 @@ input:focus {
 	}
 }
 @media (max-width: 576px) {
-	nav {
-		position: fixed;
+	body {
+		padding-top: 52px !important;
+	}
+	.navbar-my {
+		position: fixed !important;
 		top: 0;
 		right: 0;
 		left: 0;
 		opacity: 1 !important;
-		z-index: 1030 !important;
+		z-index: 1030;
 		background: #F38181 !important;
 	}
 	.carousel-mogo {
