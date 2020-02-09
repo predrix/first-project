@@ -1,17 +1,17 @@
-$(".map-text").on('click', (function(){
-	$(".lock").css({ display: 'flex'
+$(".map_pack").on('click', (function(){
+	$(".map_close").css({ display: 'flex'
 	});
-	$(".map").css({ visibility: 'visible', height: 'auto'
+	$(".map_img").css({ visibility: 'visible', height: 'auto'
 	});
-	$(".map-text").css({ display: 'none'
+	$(".map_pack").css({ display: 'none'
 	});
 }))
 
-$(".lock").on('click', (function(){
-	$(".lock").css({ display: 'none'
+$(".map_close").on('click', (function(){
+	$(".map_close").css({ display: 'none'
 	});
-	$(".map").css({ visibility: 'hidden', height: '0'
+	$(".map_img").css({ visibility: 'hidden', height: '0'
 	});
-	$(".map-text").css({ display: 'flex'
+	$(".map_pack").css({ display: 'flex'
 	});
 }))

@@ -1,15 +1,15 @@
-$('.row').on('mouseover', '.show', function(e) {
+$('.row').on('mouseover', '.team_show', function(e) {
 	let target = $(e.currentTarget);
-	let layer = target.find('.layer');
-	let img = target.find('.img-fluid')
+	let layer = target.find('.team_layer');
+	let img = target.find('.team_img')
 
-	layer.addClass('layer-hover');
-	img.addClass('hover-img');
+	layer.addClass('layer_hover');
+	img.addClass('hover_img');
 
 	target.on('mouseout', function(e) {
 
-		layer.removeClass('layer-hover');
-		img.removeClass('hover-img');
+		layer.removeClass('layer_hover');
+		img.removeClass('hover_img');
   		layer.off('mouseout');
   		img.off('mouseout');
 	});
