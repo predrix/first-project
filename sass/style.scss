@@ -264,7 +264,6 @@ body {
 	}
 	&_tablet {
 		width: 400px;
-		height: 480px;
 	}
 	&_phone {
 		position: absolute;
@@ -725,7 +724,7 @@ body {
 	}
 	&_block {
 		display: inline-flex;
-		margin-bottom: $ten;
+		margin-bottom: 30px;;
 	}
 	&_img {
 		display: flex;
@@ -794,6 +793,10 @@ body {
 	}
 	&_text, &_date {
 		margin-left: 15px;
+	}
+	&_img {
+		height: 80px;
+		width: 120px;
 	}
 }
 
@@ -936,22 +939,22 @@ body {
 			margin-left: $mid;
 			margin-right: $mid;
 		}
-		.paragraph {
-			&_text {
-				font-size: 12px;
-			}
-			&_author {
-				font-size: 11px;
-			}
-			&_line:before {
-				content: "";
-				width: $mid;
-				border-bottom: 2px solid red;
-				display: block;
-				position: absolute;
-				left: -$big;
-				top: $ten;
-			}
+	}
+	.paragraph {
+		&_text {
+			font-size: 12px;
+		}
+		&_author {
+			font-size: 11px;
+		}
+		&_line:before {
+			content: "";
+			width: $mid;
+			border-bottom: 2px solid red;
+			display: block;
+			position: absolute;
+			left: -$big;
+			top: $ten;
 		}
 	}
 }
@@ -992,6 +995,9 @@ body {
 		}
 		&_layer--big {
 			height: 100%;
+		}
+		.position {
+			position: static;
 		}
 	}
 	.usless {
@@ -1038,11 +1044,17 @@ body {
 	.info_text {
 		font-size: 15px;
 	}
-	.design_tablet {
-		width: 280px;
-	}
-	.design_phone {
-		width: 130px;
+	.design {
+		height: 600px;
+		&_tablet {
+			height: 342px;
+			width: 280px;
+			position: $rel;
+		}
+		&_phone {
+			width: 130px;
+			top: 100px;
+		}
 	}
 }
 @media (max-width: 400px) {
