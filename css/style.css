@@ -240,7 +240,7 @@ body {
 
 /*================== design-5 ====================*/
 .design {
-  background: url(../images/5-design/background.jpg) no-repeat center center/cover;
+  background: url(../images/5-design/background.jpeg) no-repeat center center/cover;
   background-attachment: fixed;
   padding-top: 30px;
   padding-bottom: 0;
@@ -452,7 +452,7 @@ body {
 
 /* ============= options-12 ============= */
 .opinions {
-  background: url(../images/12-opinions/bg.jpg) no-repeat center center/cover;
+  background: url(../images/12-opinions/bg.jpeg) no-repeat center center/cover;
   background-attachment: fixed;
   padding: 40px 0; }
   .opinions_pack {
@@ -553,7 +553,7 @@ body {
 
 /* ============= map-14 ============= */
 .map {
-  background-image: url(../images/14-map/bg-map.jpg);
+  background-image: url(../images/14-map/bg-map.jpeg);
   padding: 20px;
   color: #F38181; }
   .map_pack {
