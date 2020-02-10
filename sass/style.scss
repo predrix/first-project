@@ -708,17 +708,19 @@ body {
 		}
 	}
 	&_btn {
-		width: 160px;
+		max-width: 120px;
 		border: none;
 		background-color: $blue;
 		color: #fff;
 		font-size: 14px;
 		font-weight: bold;
+		cursor: pointer;
 	}
 	&_input, &_btn {
 		height: 45px;
 	}
 	&_block {
+		min-width: 120px;
 		display: inline-flex;
 		margin-bottom: 30px;;
 	}
@@ -774,7 +776,7 @@ body {
 }
 .block {
 	&_text {
-		font-size: 13px;
+		font-size: 12px;
 		color: green;
 		margin-bottom: 0;
 		&:hover {
@@ -791,8 +793,8 @@ body {
 		margin-left: 15px;
 	}
 	&_img {
-		height: 80px;
-		width: 120px;
+		height: 80px !important;
+		width: 120px !important;
 	}
 }
 
