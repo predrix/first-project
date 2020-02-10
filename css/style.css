@@ -70,26 +70,31 @@ body {
     left: 0;
     z-index: 1; }
 
-.navbar-my {
+.navbar {
   z-index: 2; }
-  .navbar-my .logo {
+  .navbar_logo {
     margin-left: 4%;
     font-size: 24px;
     font-weight: bold;
     color: #fff; }
-  .navbar-my .navbar-collapse-my {
+  .navbar_collapse {
     background: transparent;
     border-bottom: none !important; }
-    .navbar-my .navbar-collapse-my .navbar-nav {
-      margin-right: 4%; }
-      .navbar-my .navbar-collapse-my .navbar-nav li:hover .nav-link-my {
-        color: #FFFF33;
-        transform: translate(0, 10px);
-        transition: 1s; }
-      .navbar-my .navbar-collapse-my .navbar-nav .nav-link-my {
-        color: #fff;
-        z-index: 5;
-        font-weight: 600; }
+  .navbar_ul {
+    margin-right: 4%;
+    color: #fff; }
+  .navbar_link {
+    display: block;
+    color: #fff;
+    z-index: 5;
+    font-weight: 600; }
+  .navbar li {
+    margin: 10px 8px; }
+  .navbar li:hover .navbar_link {
+    color: #FFFF33;
+    transform: translate(0, 10px);
+    transition: 1s;
+    text-decoration: none; }
 
 /* ========== HEADER CAROUSEL ========== */
 .carousel {
@@ -699,7 +704,7 @@ body {
   .blog img {
     width: 300px; } }
 @media (max-width: 992px) {
-  .nav-link-my {
+  .navbar_link {
     font-size: 14px; }
 
   .blog img {
@@ -724,8 +729,8 @@ body {
   .pictures img {
     max-width: 70px; } }
 @media (max-width: 768px) {
-  .nav-link-my {
-    font-size: 12px; }
+  .navbar_link {
+    font-size: 13px; }
 
   .blog_date {
     padding: 6px 10px; }
@@ -740,7 +745,7 @@ body {
     height: 40px;
     width: 40px; } }
 @media (min-width: 768px) {
-  .navbar-my {
+  .navbar {
     transition: all 1s ease-in-out; }
 
   .story_show {
@@ -776,8 +781,8 @@ body {
   .place .paragraph_author {
     font-size: 12px; } }
 @media (max-width: 640px) {
-  .nav-link-my {
-    font-size: 13px; }
+  .navbar_link {
+    font-size: 12px; }
 
   .place {
     padding-top: 30px; }
@@ -800,10 +805,10 @@ body {
       left: -50px;
       top: 10px; } }
 @media (max-width: 600px) {
-  header nav button:focus {
+  .navbar-toggler:focus {
     outline: none; }
 
-  .navbar-collapse-my {
+  .navbar_collapse {
     background: transparent;
     display: block;
     text-align: center; } }
@@ -825,11 +830,16 @@ body {
   .carousel_p {
     font-size: 56px; }
 
+  .gallery_img {
+    width: 100%; }
+  .gallery_layer--big {
+    height: 100%; }
+
   .usless {
     display: none; }
 
-  .main-ul li:hover .nav-link {
-    border-bottom: none !important;
+  .navbar_ul li:hover .navbar_link {
+    border-bottom: none;
     color: #FFFF33;
     transform: scale(1.2);
     transition: 1s; }
@@ -850,9 +860,6 @@ body {
     font-size: 24px; }
   .blog img {
     width: 380px; }
-
-  .position {
-    position: relative; }
 
   .layer3 {
     height: 100%;
