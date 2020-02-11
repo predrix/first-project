@@ -813,7 +813,7 @@ body {
 		font-size: 14px;
 	}
 	.blog img {
-		width: 2$small;
+		width: 220px;
 	}
 	.gallery {
 		&_title, i {
@@ -1012,7 +1012,7 @@ body {
 		font-size: 45px;
 	}
 	.info_text {
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.blog{
 		&_pack {
@@ -1028,7 +1028,7 @@ body {
 			font-size: 24px;
 		}
 		img {
-			width: 380px;
+			width: 300px;
 		}
 	}
 	.layer3 {
@@ -1041,7 +1041,7 @@ body {
 		font-size: $mid;
 	}
 	.info_text {
-		font-size: 15px;
+		font-size: 11px;
 	}
 	.design {
 		height: 600px;
@@ -1079,6 +1079,10 @@ body {
 		font-size: 25px;
 	}
 	.info_text {
+
 		font-size: 9px;
+	}
+	.blog img {
+		width: 250px;
 	}
 }
