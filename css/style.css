@@ -167,7 +167,7 @@ body {
 .story_show {
   position: relative;
   display: inline-block;
-  background: #95e1d3; }
+  background: #77b4a8; }
   .story_show:hover .story_layer {
     opacity: 0.9;
     left: -10px;
@@ -201,7 +201,7 @@ body {
 /* ==================== information-3 =====================*/
 .info {
   padding: 0;
-  background-color: #95e1d3;
+  background-color: #77b4a8;
   margin-top: 80px; }
   .info_pack--border {
     border-left: 1px solid white; }
@@ -230,7 +230,7 @@ body {
     margin-top: 20px;
     border-bottom: 1px solid #e2e2e2; }
   .work_icon {
-    color: #95e1d3;
+    color: #77b4a8;
     margin-right: 15px;
     font-size: 30px;
     margin-top: 0;
@@ -287,7 +287,7 @@ body {
     font-size: 18px;
     padding: 0; }
   .panels_icon {
-    color: #95e1d3;
+    color: #77b4a8;
     font-size: 30px; }
   .panels_drop {
     color: #808080; }
@@ -319,7 +319,7 @@ body {
 .team_show {
   position: relative;
   display: inline-block;
-  background: #95e1d3;
+  background: #77b4a8;
   text-align: center; }
 .team_layer {
   display: flex;
@@ -498,7 +498,7 @@ body {
   .blog_date {
     display: block;
     position: absolute;
-    background-color: #95e1d3;
+    background-color: #77b4a8;
     color: #fff;
     left: -10px;
     bottom: 10px;
@@ -519,7 +519,7 @@ body {
     line-height: 100%; }
   .blog_text {
     font-size: 14px;
-    color: #999; }
+    color: #5a5a5a; }
   .blog_title {
     margin-top: 15px;
     color: white; }
@@ -546,7 +546,7 @@ body {
     .blog_btn:hover {
       color: black; }
     .blog_btn:hover i {
-      color: #95e1d3;
+      color: #77b4a8;
       margin-right: 5px; }
     .blog_btn i {
       margin-right: 5px; }
@@ -630,7 +630,7 @@ body {
   .footer_btn {
     max-width: 120px;
     border: none;
-    background-color: #95e1d3;
+    background-color: #77b4a8;
     color: #fff;
     font-size: 14px;
     font-weight: bold;
@@ -663,7 +663,7 @@ body {
   flex-wrap: wrap; }
   .sites_icon i {
     margin: 0 7px;
-    color: #95e1d3; }
+    color: #77b4a8; }
 
 .block_text {
   font-size: 12px;
@@ -696,6 +696,7 @@ body {
   width: 50px;
   padding: 5px;
   font-size: 15px;
+  font-weight: bold;
   color: #fff; }
   #mover:hover {
     text-decoration: none;

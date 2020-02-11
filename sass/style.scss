@@ -573,7 +573,7 @@ body {
 	}
 	&_text {
 		font-size: 14px;
-		color: #999;
+		color: #5a5a5a;
 	}
 	&_title {
 		margin-top: 15px;
@@ -791,6 +791,7 @@ body {
 	width: $big;
 	padding: 5px;
 	font-size: 15px;
+	font-weight: bold;
 	color: #fff;
 	&:hover {
 		text-decoration: none;
