@@ -39,7 +39,7 @@ body {
 /* ========== HEADER ==========*/
 
 .header {
-	background: url(../images/1-header/eagle.jpg) no-repeat center center / cover;
+	background: url(../images/1-header/eagle.webp) no-repeat center center / cover;
 	position: $rel;
     padding-bottom: $big;
     &:after {
@@ -54,7 +54,7 @@ body {
 	}
 }
 .navbar {
-	z-index: 2;
+	z-index: 10;
     &_logo {
         margin-left: 4%;
         font-size: 24px;
@@ -248,7 +248,7 @@ body {
 /*================== design-5 ====================*/
 
 .design {
-	background: url(../images/5-design/background.jpeg) no-repeat center center / cover;
+	background: url(../images/5-design/background.webp) no-repeat center center / cover;
 	background-attachment: fixed;
 	padding-top: 30px;
 	padding-bottom: 0;
@@ -491,7 +491,7 @@ body {
 }
 /* ============= options-12 ============= */
 .opinions {
-	background: url(../images/12-opinions/bg.jpeg) no-repeat center center / cover;
+	background: url(../images/12-opinions/bg.webp) no-repeat center center / cover;
 	background-attachment: fixed;
 	padding: $mid 0;
 	&_pack {
@@ -617,7 +617,7 @@ body {
 /* ============= map-14 ============= */
 
 .map {
-	background-image: url(../images/14-map/bg-map.jpeg);
+	background-image: url(../images/14-map/bg-map.webp);
 	padding: $small;
 	color: $red;
 	&_pack {
@@ -670,7 +670,7 @@ body {
 		color: #5a5a5a;
 		&--big {
 			font-size: $mid;
-			color: #dadada;
+			color: #5a5a5a;
 			font-weight: bold;
 		}
 	}
@@ -736,27 +736,9 @@ body {
 		text-align: center;
 		padding: 15px 0;
 		font-size: 14px;
-		color: #999;
+		color: #5a5a5a;
 		span {
 			color: green;
-		}
-	}
-	&_mover {
-		@include flexy;
-		position: fixed;
-		bottom: 5px;
-		right: 5px;
-		background-color:$red;
-		height: $big;
-		width: $big;
-		padding: 5px;
-		i {
-			color: #fff;
-			font-size: $small;
-			z-index: 0;
-		}
-		&:hover {
-			text-decoration: none;
 		}
 	}
 }
@@ -795,6 +777,24 @@ body {
 	&_img {
 		height: 80px !important;
 		width: 120px !important;
+	}
+}
+#mover {
+	@include flexy;
+	text-align: center;
+	padding-top: $small;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	background-color:$red;
+	height: $big;
+	width: $big;
+	padding: 5px;
+	font-size: 15px;
+	color: #fff;
+	&:hover {
+		text-decoration: none;
+		color: #fff;
 	}
 }
 

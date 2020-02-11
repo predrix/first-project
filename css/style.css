@@ -52,7 +52,7 @@ body {
 
 /* ========== HEADER ==========*/
 .header {
-  background: url(../images/1-header/eagle.jpg) no-repeat center center/cover;
+  background: url(../images/1-header/eagle.webp) no-repeat center center/cover;
   position: relative;
   padding-bottom: 50px; }
   .header:after {
@@ -67,7 +67,7 @@ body {
     z-index: 1; }
 
 .navbar {
-  z-index: 2; }
+  z-index: 10; }
   .navbar_logo {
     margin-left: 4%;
     font-size: 24px;
@@ -240,7 +240,7 @@ body {
 
 /*================== design-5 ====================*/
 .design {
-  background: url(../images/5-design/background.jpeg) no-repeat center center/cover;
+  background: url(../images/5-design/background.webp) no-repeat center center/cover;
   background-attachment: fixed;
   padding-top: 30px;
   padding-bottom: 0;
@@ -452,7 +452,7 @@ body {
 
 /* ============= options-12 ============= */
 .opinions {
-  background: url(../images/12-opinions/bg.jpeg) no-repeat center center/cover;
+  background: url(../images/12-opinions/bg.webp) no-repeat center center/cover;
   background-attachment: fixed;
   padding: 40px 0; }
   .opinions_pack {
@@ -553,7 +553,7 @@ body {
 
 /* ============= map-14 ============= */
 .map {
-  background-image: url(../images/14-map/bg-map.jpeg);
+  background-image: url(../images/14-map/bg-map.webp);
   padding: 20px;
   color: #F38181; }
   .map_pack {
@@ -599,7 +599,7 @@ body {
     color: #5a5a5a; }
     .footer_title--big {
       font-size: 40px;
-      color: #dadada;
+      color: #5a5a5a;
       font-weight: bold; }
   .footer_text {
     font-size: 13px;
@@ -651,26 +651,9 @@ body {
     text-align: center;
     padding: 15px 0;
     font-size: 14px;
-    color: #999; }
+    color: #5a5a5a; }
     .footer_bottom span {
       color: green; }
-  .footer_mover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 5px;
-    right: 5px;
-    background-color: #F38181;
-    height: 50px;
-    width: 50px;
-    padding: 5px; }
-    .footer_mover i {
-      color: #fff;
-      font-size: 20px;
-      z-index: 0; }
-    .footer_mover:hover {
-      text-decoration: none; }
 
 .sites_follow {
   margin-right: 16px;
@@ -698,6 +681,25 @@ body {
 .block_img {
   height: 80px !important;
   width: 120px !important; }
+
+#mover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  background-color: #F38181;
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  font-size: 15px;
+  color: #fff; }
+  #mover:hover {
+    text-decoration: none;
+    color: #fff; }
 
 /* ========== MEDIA QUERIES ========== */
 @media (max-width: 1200px) {
